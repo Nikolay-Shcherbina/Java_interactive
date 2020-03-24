@@ -1,6 +1,7 @@
 package homework1;
 /*
 * Nikolay Shcherbina
+* ДЗ по 1-му уроку
 * */
 
 public class Main {
