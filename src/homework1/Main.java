@@ -10,12 +10,11 @@ public class Main {
 // где a, b, c, d – входные параметры этого метода;
     public static float calculate(int a, int b, int c, int d) {
         float result;
-        float j = 1.0F;
         if(d == 0) {
             System.out.println("На ноль делить нельзя!");
             result = 0;
         } else {
-            result = a * (b + (c * j / d));
+            result = a * (b + (c * 1.0f / d));
         }
         return result;
     }
@@ -51,9 +50,9 @@ public class Main {
 // и выводит сообщение в консоль. Каждый 4-й год является високосным,
 // кроме каждого 100-го, при этом каждый 400-й – високосный.
     public static void leapYear(int year) {
-        if (((year % 4 == 0) && !(year % 100 == 0)) || (year % 400 == 0)) {
+        if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)) {
             System.out.println(year + " Високосный");
-        }else {
+        } else {
             System.out.println(year + " не високосный");
         }
     }
