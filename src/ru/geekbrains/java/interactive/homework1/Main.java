@@ -1,4 +1,4 @@
-package homework1;
+package ru.geekbrains.java.interactive.homework1;
 /*
 * Nikolay Shcherbina
 * ДЗ по 1-му уроку

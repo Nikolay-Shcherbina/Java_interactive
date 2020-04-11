@@ -1,4 +1,4 @@
-package homework2;
+package ru.geekbrains.java.interactive.homework2;
 import java.util.Arrays;
 
 public class Main {
